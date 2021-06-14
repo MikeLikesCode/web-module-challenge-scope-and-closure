@@ -43,6 +43,10 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+  A closure is when access is given to an outer functions scope is given access to a inner functions scope by
+  calling on it.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +68,18 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+  A closure is used when referencing to the 'name' parameter. It's outside of its current scope but can still use it since they are in
+  the same function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+  The random number will always change since its randomized but the name won't change since the same name is being passed through.
+
 c. What is the lexical scope of `newRoll`? 
+
+  The lexical scope of `newRoll` is the function that its currently in. It can't be referenced outside
+  of that function.
 
 
 ### Task 3 - Stretch Goals
